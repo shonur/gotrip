@@ -1,0 +1,47 @@
+
+/* 
+1399,98
+1199,98
+991,98
+767,98
+575,98
+ */
+
+ @media(max-width:1140.98px){
+    .cards__content{
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    }
+     }
+    
+     @media (max-width:991.98px){
+    .about__content{
+        flex-direction: column;
+        gap: 15px;
+    }
+    .about__img{
+        max-width:100% ;
+    }
+     }
+    
+     @media (max-width:767.98px){
+        .header__content{
+            flex-direction: column;
+          align-items: center;
+          gap: 5px;
+        }
+     }
+     @media(max-width:575.98px){
+      .contacts__content{
+        flex-direction: column;
+        align-items: center;
+      }
+      .contacts__desc{
+        max-width: max-content;
+        width: 100%;
+      }
+      .contacts__title{
+        text-align: center;
+      }
+     }
